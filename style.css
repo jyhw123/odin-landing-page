@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.headerleft{
+    padding:10px;
+    font-weight: 800;
+}
+
+.block1{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+}
+
+.block1image{
+    background-color: lightgray;
+}
+
+.block2{
+    padding:20px;
+}
+
+.block2header{
+    text-align: center;
+}
+.block2content{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.block2info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block2image{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+.block2text{
+    max-width: 150px;
+    text-align: center;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    padding:20px;
+}
+
+.block3text{
+    max-width: 600px;
+    text-align: left;
+    align-self: center;
+}
+.block3author{
+    font-weight: 1000;
+    text-align: right;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
